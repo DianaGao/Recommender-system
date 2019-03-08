@@ -10,4 +10,14 @@ In the example below, B and C follow the user A, regardless of whether user A fo
 ![](Triadic%20closure.png)
 
 ## Normalization
-Add a "weight" (normalization) to the similarity score
+Add a "weight" (normalization) to the similarity score reference the Jaccard coefficient.
+
+### Jaccard Coefficient
+![](Jaccard%20Coeffcient.png)
+
+### User similarity score normalization
+![](Interests%20rate%20normalization.png)
+
+The user similarity score is calculated by dividing the number of “common friends” that both user i and j follow by the number of friends that both users follow.
+
+Put the total number of following into the consideration, which means the score of the user would punishment the users following too many users. 
